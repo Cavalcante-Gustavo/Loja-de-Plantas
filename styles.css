@@ -1,0 +1,21 @@
+/* Menu Superior */
+
+header {
+    background-color: #ECF7E9;
+    align-items: baseline;
+}
+
+.Menu-Superior {
+    text-align: top;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.logotipo .imagem {
+    max-width: 100px;
+    max-height: auto;
+}
+
+/* Menu Superior */
+
