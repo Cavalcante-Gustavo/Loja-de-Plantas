@@ -1,21 +1,99 @@
-/* Menu Superior */
+* {
+    font-family: Helvetica;
+}
 
-header {
+.barrasuperior {
     background-color: #ECF7E9;
-    align-items: baseline;
-}
-
-.Menu-Superior {
-    text-align: top;
-    justify-content: center;
+    text-align: center;
     display: flex;
-    gap: 40px;
 }
 
-.logotipo .imagem {
-    max-width: 100px;
-    max-height: auto;
+.barrasuperior .imagem {
+    padding: 15px;
+    height: 120px;
+    width: 100px;
+
 }
 
-/* Menu Superior */
+.barrasuperior .menu {
+    font-weight: lighter;
+    padding-top: 48px;
+    margin-left: 22%;
+    font-size: 16px;
+    display: flex;
+    gap: 60px;    
+}
 
+
+
+
+
+
+
+
+
+.blococapa {
+    text-align: right;
+}
+
+.blococapa .text {
+    text-align: right;
+    font-size: 70px;
+}
+
+.blococapa .italic {
+    font-size: 50px;
+}
+
+.blococapa .capa {
+    object-fit: cover;
+    width: 1264px;
+    height: 650px;   
+}
+
+.blococapa .conhecer {
+    background-color: #284E3B;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.blocoloja {
+    padding-top: 10%;
+}
+
+.blocoloja .textoinicial {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    color:#284E3B;
+}
+
+.blocoloja .blocoimagens {
+    text-align: center;
+}
+
+.blocoloja .blocoimagens .plant {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+}
+
+.blocoloja .bloconomes {
+    text-align: center;
+    display: flex;
+    gap: 100px
+}
+
+.blocoloja .bloconomes .nome {
+    margin-left: 11%;
+}
