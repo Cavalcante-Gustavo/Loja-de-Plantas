@@ -66,6 +66,8 @@
 
 
 
+
+
 .blocoloja {
     padding-top: 10%;
 }
@@ -77,23 +79,143 @@
     color:#284E3B;
 }
 
-.blocoloja .blocoimagens {
+.blocoloja .boxes-loja {
     text-align: center;
-}
-
-.blocoloja .blocoimagens .plant {
-    object-fit: cover;
-    height: 200px;
-    width: 200px;
-    margin: 50px;
-}
-
-.blocoloja .bloconomes {
-    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
     display: flex;
-    gap: 100px
+    gap: 90px;
 }
 
-.blocoloja .bloconomes .nome {
-    margin-left: 11%;
+.blocoloja .box-loja-01 .imagem {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border:solid#284E3B;
+    border-width: 2px;
+}
+
+.blocoloja .box-loja-01 {
+    text-align: center;
+    color:#284E3B
+}
+
+
+.blocoloja .box-loja-02 .imagem {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border:solid#284E3B;
+    border-width: 2px;
+}
+
+.blocoloja .box-loja-02 {
+    text-align: center;
+    color:#284E3B
+
+}
+
+.blocoloja .box-loja-03 .imagem {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border:solid#284E3B;
+    border-width: 2px;
+}
+
+.blocoloja .box-loja-03 {
+    text-align: center;
+    color:#284E3B
+}
+
+.blocoloja .box-loja-04 .imagem {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border:solid#284E3B;
+    border-width: 2px;
+}
+
+.blocoloja .box-loja-04 {
+    text-align: center;
+    color:#284E3B
+}
+
+.blocoloja .box-loja-01 .nomedaplanta,
+.blocoloja .box-loja-02 .nomedaplanta, 
+.blocoloja .box-loja-03 .nomedaplanta, 
+.blocoloja .box-loja-04 .nomedaplanta {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.blocoloja .box-loja-01 .numero-avaliações,
+.blocoloja .box-loja-02 .numero-avaliações, 
+.blocoloja .box-loja-03 .numero-avaliações, 
+.blocoloja .box-loja-04 .numero-avaliações {
+    font-size: 12px;
+}
+
+.bloco-botão {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.bloco-botão .ver-todas {
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #284E3B;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.bloco-descrição {
+    background-color: #ECF7E9;
+    display: flex;
+}
+
+
+.bloco-descrição .bloco-no-bloco {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco-descrição .bloco-no-bloco .titulo {
+    padding-top: 40px;
+    font-size: 45px;
+    padding-left: 40px;
+}
+
+.bloco-descrição .bloco-no-bloco .descrição {
+    padding-left: 40px;
+    padding-right: 120px;
+}
+
+.bloco-descrição .imagem {
+    padding: 40px;
+    width: 350px;
+    height: auto;
+}
+
+.bloco-descrição .botão {
+    padding-top: 40px;
+}
+
+.bloco-descrição .botão .botão-loja {
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #284E3B;
+    color: white;
 }
